@@ -1,0 +1,26 @@
+GP algorithm started at: 2023-02-19 13:37:32.589334
+Execution parameters: {'InputFile': 'inputs/example_03.txt', 'InputFormat': '012', 'RandomSeed': '0', 'InitializationMaxFillFactor': 1.8, 'PopulationSize': '200', 'DolloK': 2, 'Alpha': 0.35, 'Beta': 0.005, 'EvaluationType': 'likelihood-012', 'EliteSize': 1, 'CrossoverProbability': 0.9, 'MutationProbability': 0.1, 'FineGrainedTournamentSize': 2.4, 'MaxNumberGenerations': '0', 'MaxTimeForExecutionInSeconds': '1500'}
+RandomSeed is not predefined. Generated seed value:  6696618059491602909
+GP algorithm finished at: 2023-02-19 14:02:36.270357
+Execution time: 0:25:03.681023 Number of generations: 468
+Final solution
+
+ooo       00000000000000
+├── b+    01000000000000
+│   └── l+ 01000000000100
+│       └── h+ 01000001000100
+│           ├── a+ 11000001000100
+│           │   └── j+ 11000001010100
+│           │       ├── b- 10000001010100
+│           │       │   └── e+ 10001001010100
+│           │       └── l- 11000001010000
+│           │           └── c+ 11100001010000
+│           └── f+ 01000101000100
+│               └── d+ 01010101000100
+│                   └── n+ 01010101000101
+│                       └── h- 01010100000101
+└── k+    00000000001000
+    └── i+ 00000000101000
+        └── m+ 00000000101010
+            └── g+ 00000010101010
+Fitness: [-10.130097]

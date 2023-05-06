@@ -1,0 +1,14 @@
+VNS algorithm started at: 2023-02-20 21:16:59.445435
+Execution parameters: {'InputFile': 'inputs/example_02.txt', 'InputFormat': '012', 'RandomSeed': '0', 'InitializationMaxFillFactor': 1.8, 'DolloK': 2, 'Alpha': 0.35, 'Beta': 0.005, 'EvaluationType': 'likelihood-012', 'MaxNumberIterations': '0', 'MaxTimeForExecutionInSeconds': '300'}
+RandomSeed is not predefined. Generated seed value:  7121495237188913283
+VNS algorithm finished at: 2023-02-20 21:21:59.538173
+Final solution (fitness: -2.431592)
+ooo       000
+└── b+    010
+    └── c+ 011
+        ├── a+ 111
+        │   ├── b- 101
+        │   └── c- 110
+        └── b- 001
+
+Fitness: [-2.431592]

@@ -1,0 +1,34 @@
+VNS algorithm started at: 2023-03-25 18:19:13.809363
+Execution parameters: {'InputFile': 'prog/inputs/example_01.txt', 'InputFormat': '012', 'RandomSeed': '0', 'InitializationMaxFillFactor': 1.8, 'DolloK': 2, 'Alpha': 0.35, 'Beta': 0.005, 'EvaluationType': 'likelihood-012', 'MaxNumberIterations': '0', 'MaxTimeForExecutionInSeconds': '10'}
+RandomSeed is not predefined. Generated seed value:  5167840210155616366
+VNS algorithm finished at: 2023-03-25 18:19:24.003329
+Final solution (fitness: -5.777995)
+ooo       0000000
+├── a+    1000000
+│   ├── c+ 1010000
+│   ├── e+ 1000100
+│   └── g+ 1000001
+├── d+    0001000
+└── f+    0000010
+    └── b+ 0100010
+
+
+graph tree {
+    "ooo:0" [shape=box];
+    "a+:1" [shape=box];
+    "c+:2" [shape=box];
+    "e+:2" [shape=box];
+    "g+:2" [shape=box];
+    "d+:1" [shape=box];
+    "f+:1" [shape=box];
+    "b+:2" [shape=box];
+    "ooo:0" -- "a+:1" [label="ooo:a+"];
+    "ooo:0" -- "d+:1" [label="ooo:d+"];
+    "ooo:0" -- "f+:1" [label="ooo:f+"];
+    "a+:1" -- "c+:2" [label="a+:c+"];
+    "a+:1" -- "e+:2" [label="a+:e+"];
+    "a+:1" -- "g+:2" [label="a+:g+"];
+    "f+:1" -- "b+:2" [label="f+:b+"];
+}
+
+Fitness: [-5.777995]
